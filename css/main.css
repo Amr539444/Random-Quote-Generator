@@ -1,0 +1,43 @@
+.app {
+  background-color: #1c1c1c;
+  box-shadow: 10px 10px 40px #1a996f;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  width: 800px;
+  padding: 60px;
+  max-width: 1000px;
+  max-height: 500px;
+  transform: translate(-50%, -50%);
+}
+
+.app .container .text-app h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 40px;
+  font-family: Impact;
+}
+
+.app .container .text-app p {
+  font-weight: 400;
+  color: #fff;
+  font-size: 25px;
+  font-family: "Times New Roman";
+  margin-bottom: 30px;
+}
+.app .container .text-app button {
+  background-color: #fff;
+  color: #1c1c1c;
+  padding: 20px 60px;
+  font-size: 20px;
+  border-radius: 10px 20px;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 40px;
+}
+
+.app .container .text-app button:hover {
+  background-color: #1a996f;
+  color: #eee;
+}
