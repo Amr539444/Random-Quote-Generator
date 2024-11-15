@@ -20,8 +20,31 @@ const onClick = [
   },
 ];
 
+
+
+var newIndex;
+var lastIndex;
+
+var displeyedQoutes = [];
+
+
 function clicked(){
+
+
+
+  if ( displeyedQoutes.length == displeyedQoutes.length){
+    displeyedQoutes = []; 
+  }
+
+
+
+  do{
   const random = Number.parseInt(Math.random()*onClick.length + 1);
+
+  } while( newIndex == lastIndex )
+
+    lastIndex = newIndex
+
   document.querySelector('#output').textContent = `\"${onClick[random].quote}\"`;
   document.querySelector('#output2').textContent = `--${onClick[random].author}`;
   
